@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import Navbaar from './components/Navbaar';
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Team from './pages/Team';
+import ESummit from './pages/ESummit';
+import PastPartners from './pages/PastPartners';
+import Events from './pages/Events';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <BrowserRouter>
+    <Navbaar/>
+    <Routes>
+      <Route path='/' element={<HomePage/>}/>
+      <Route path='/team' element={<Team/>}/>
+      <Route path='/eSummit' element={<ESummit/>}/>
+      <Route path='/pastPartners' element={<PastPartners/>}/>
+      <Route path='/events' element={<Events/>}/>
+    </Routes>
+    </BrowserRouter>
+
+    </>
   );
 }
 
