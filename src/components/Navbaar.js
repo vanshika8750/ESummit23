@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 
 function Navbaar() {
   return (
-    <Navbar bg="dark" data-bs-theme="dark" expand="lg" className="bg-body-tertiary h-20">
+    <Navbar sticky='top' bg="black" data-bs-theme="dark" expand="lg" className=" h-20 bg-inherit">
       <Container>
         <Navbar.Brand href="/">
             <img src={logo} alt='EDC_Logo' className='logo_nav'/>

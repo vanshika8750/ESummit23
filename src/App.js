@@ -7,6 +7,7 @@ import Team from './pages/Team';
 import ESummit from './pages/ESummit';
 import PastPartners from './pages/PastPartners';
 import Events from './pages/Events';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Route path='/pastPartners' element={<PastPartners/>}/>
       <Route path='/events' element={<Events/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
 
     </>
