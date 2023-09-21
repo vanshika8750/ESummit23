@@ -7,21 +7,21 @@ import Button from 'react-bootstrap/Button';
 
 function Navbaar() {
   return (
-    <Navbar sticky='top' bg="black" data-bs-theme="dark" expand="lg" className=" h-20 bg-inherit">
+    <Navbar sticky='top' bg="black" data-bs-theme="dark" expand="lg" className=" navbar bg-inherit">
       <Container>
         <Navbar.Brand href="/">
             <img src={logo} alt='EDC_Logo' className='logo_nav'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" >
-          <Nav className="me-auto flex items-center">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="/team">Team</Nav.Link>
-            <Nav.Link href="/eSummit" >ESummit</Nav.Link>
-            <Nav.Link href="/pastPartners" className='w-28'>Past Partners</Nav.Link>
-            <Nav.Link href="/events">Events</Nav.Link>
+          <Nav className="nav_item">
+            <Nav.Link href="#frontpage">Home</Nav.Link>
+            <Nav.Link href="#team">Team</Nav.Link>
+            <Nav.Link href="#esummit" >ESummit</Nav.Link>
+            <Nav.Link href="#pastpartners" className='past_partner_heading'>Past Partners</Nav.Link>
+            <Nav.Link href="#events">Events</Nav.Link>
             <Nav.Link href="#ticket">
-            <Button size="sm" variant="light" className='w-28'>Buy Tickets</Button>{' '}
+            <Button size="lg" variant="light" className='btn_nav'>Buy Tickets</Button>{' '}
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

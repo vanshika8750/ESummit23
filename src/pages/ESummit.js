@@ -3,8 +3,8 @@ import Accordion from '../components/Accordion'
 
 const ESummit = () => {
   return (
-    <div 
-    className='flex flex-col justify-center items-center my-4'>
+    <div id='esummit'
+    className='flex flex-col justify-center items-center'>
       <Accordion/>
     </div>
   )

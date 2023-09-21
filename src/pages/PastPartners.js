@@ -8,29 +8,29 @@ import pp6 from "../images/pp6.png";
 
 const PastPartners = () => {
   return (
-    <div>
+    <div id='pastpartners'>
       <div className='text-4xl flex justify-center my-12'> Our Past Partners</div>
       <div className='flex flex-row justify-center items-center'>
-          <div className='box w-1/4 duration-1000'>
-            <img src={pp2} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/4'>
+            <img src={pp2} className='block'/>
           </div>
-          <div className='box w-1/5 mx-16 duration-1000'>
-            <img src={pp1} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/5 mx-16 '>
+            <img src={pp1} className='block '/>
           </div>
-          <div className='box w-1/5 duration-1000'>
-            <img src={pp3} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/5 '>
+            <img src={pp3} className='block'/>
           </div>
       </div>
 
       <div className='flex flex-row mt-10 justify-center items-center'>
-          <div className='box w-1/5 duration-1000'>
-            <img src={pp4} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/5'>
+            <img src={pp4} className='block'/>
           </div>
-          <div className='box w-1/5 mx-20 duration-1000'>
-            <img src={pp5} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/5 mx-20'>
+            <img src={pp5} className='block'/>
           </div>
-          <div className='box w-1/5 duration-1000'>
-            <img src={pp6} className='block hover:scale-125 hover:z-10'/>
+          <div className='box w-1/5'>
+            <img src={pp6} className='block'/>
           </div>
       </div>
     </div>

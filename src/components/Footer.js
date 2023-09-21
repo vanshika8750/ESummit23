@@ -44,26 +44,26 @@ const Footer = () => {
         </div>
 
         {/* links */}
-    <div className='text-2xl flex flex-row justify-center m-auto pt-16 pb-8'>
+    <div className='text-5xl flex flex-row justify-center m-auto pt-16 pb-8'>
 
         {/* fb */}
         <div >
-            <Link className='text-gray-300 hover:text-white' to='https://www.facebook.com/ecell.jssaten'><BiLogoFacebookSquare/></Link>
+            <a className='text-gray-300 hover:text-white' href='https://www.facebook.com/ecell.jssaten'><BiLogoFacebookSquare/></a>
         </div>
 
         {/* linkedin */}
         <div className='mx-4'>
-            <Link className='text-gray-300 hover:text-white ' to='https://www.linkedin.com/company/edc-jssate'><BiLogoLinkedinSquare/></Link>
+            <a className='text-gray-300 hover:text-white ' href='https://www.linkedin.com/company/edc-jssate'><BiLogoLinkedinSquare/></a>
         </div>
 
         {/* insta */}
         <div className='mr-4'>
-            <Link className='text-gray-300 hover:text-white'  to='https://www.instagram.com/ecelljss/'><BiLogoInstagramAlt/></Link>
+            <a className='text-gray-300 hover:text-white'  href='https://www.instagram.com/ecelljss/'><BiLogoInstagramAlt/></a>
         </div>
 
         {/* messenger */}
         <div>
-            <Link className='text-gray-300 hover:text-white'  to='https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F632282093590922%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0'><BiLogoMessenger/></Link>
+            <a className='text-gray-300 hover:text-white'  href='https://www.messenger.com/login.php?next=https%3A%2F%2Fwww.messenger.com%2Ft%2F632282093590922%2F%3Fmessaging_source%3Dsource%253Apages%253Amessage_shortlink%26source_id%3D1441792%26recurring_notification%3D0'><BiLogoMessenger/></a>
         </div>
 
     </div>
