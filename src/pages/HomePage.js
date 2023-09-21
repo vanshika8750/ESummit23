@@ -12,6 +12,7 @@ import Navbar from '../components/Navbar';
 const HomePage = () => {
   return (
     <div>
+      <div className='fixed right-[20px] bottom-[20px]'></div>
       <Navbaar/>
       {/* <Navbar/> */}
       <FrontPage/>

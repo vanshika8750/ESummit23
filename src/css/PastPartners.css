@@ -1,0 +1,19 @@
+.Paast{
+    background-color: #fff;
+    padding: 50px 0px;
+}
+#pastpartners img{
+    width: 8vw;
+    height: 8vh;
+    margin: auto;
+}
+.past{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    margin: 20px;
+}
