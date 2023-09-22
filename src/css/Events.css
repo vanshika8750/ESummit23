@@ -1,5 +1,6 @@
 .Events{
     background-color: #fff;
+    padding: 20px 0px;
 }
 .main-head-events{
     text-align: center;
@@ -31,12 +32,26 @@
 .btn-card-event{
     padding: 10px;
     border-radius: 10px;
+    background-color: white;
+    color: black;
 }
 .btn-card-event:hover{
-    background-color: white;
+    background-color: inherit;
     color: black;
 
 }
 .written-card{
     padding: 20px ;
+}
+@media screen and (max-width:400px)
+{
+    .events{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-event{
+        width: 80%;
+        margin-bottom: 20px;
+    }
 }

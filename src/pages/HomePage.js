@@ -14,7 +14,7 @@ import Events from './Events';
 const HomePage = () => {
   return (
     <div>
-      <div className='fixed right-[20px] bottom-[20px]'>
+      <div className='fixed right-[20px] bottom-[20px] contact'>
         <ContactUs/>
       </div>
       <Navbaar/>
@@ -23,9 +23,9 @@ const HomePage = () => {
       <Quote/>
       <Carousel/>
       <Register/>
-      <ESummit/>
-      <PastPartners/>
       <Events/>
+      <PastPartners/>
+      <ESummit/>
       <Footer/>
     </div>
   )

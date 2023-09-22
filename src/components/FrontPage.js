@@ -23,7 +23,7 @@ const FrontPage = () => {
       data-aos-delay="300"
       data-aos-duration="1000"
       className='absolute flex justify-center flex-col  items-center text-white'>
-        <div className='flex flex-row justify-center items-baseline'>
+        <div className='flex flex-row justify-center items-baseline headings_set'>
         <div className='main_head'>E-SUMMIT '23</div>
 
         
@@ -34,8 +34,8 @@ const FrontPage = () => {
         loop={500}
         cursor
         cursorStyle='|'
-        typeSpeed={90}
-        deleteSpeed={80}
+        typeSpeed={100}
+        deleteSpeed={110}
         delaySpeed={1000}
         />
         </div>

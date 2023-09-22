@@ -21,7 +21,11 @@ const PastPartners = () => {
   return (
     <div className='Paast' id='pastpartners'>
       <div className='text-4xl flex justify-center my-12'> Our Past Partners</div>
-      <div className='past'>
+      <div 
+       data-aos="fade-right"
+       data-aos-offset="100"
+       data-aos-duration="800"
+      className='past'>
           <div className='box'>
             <img src={pp2}/>
           </div>
@@ -39,7 +43,11 @@ const PastPartners = () => {
           </div>
       </div>
 
-      <div className='past'>
+      <div
+       data-aos="fade-left"
+       data-aos-offset="100"
+       data-aos-duration="800"
+      className='past'>
          
           <div className='box '>
             <img src={pp5}/>
@@ -58,7 +66,11 @@ const PastPartners = () => {
           </div>
       </div>
 
-      <div className='past'>
+      <div
+       data-aos="fade-right"
+       data-aos-offset="100"
+       data-aos-duration="800"
+      className='past'>
          
           <div className='box '>
             <img src={pp11}/>

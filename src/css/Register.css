@@ -1,0 +1,14 @@
+@media screen and (max-width: 400px){
+    .register{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .first-block{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .second-block{
+        width: 40%;
+    }
+}

@@ -55,3 +55,15 @@
     line-height: 1.2;
     color: rgb(40, 37, 53);
   }
+  @media only screen and (max-width:400px)
+  {
+    .main-div{
+      width: 90vw;
+    }
+    .main-heading p{
+      height: 30px;
+    }
+    .main-heading h3{
+      width: 90vw;
+    }
+  }
