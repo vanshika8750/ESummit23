@@ -8,11 +8,15 @@ import Navbaar from '../components/Navbaar';
 import Footer from '../components/Footer';
 import PastPartners from './PastPartners';
 import Navbar from '../components/Navbar';
+import ContactUs from '../components/ContactUs';
+import Events from './Events';
 
 const HomePage = () => {
   return (
     <div>
-      <div className='fixed right-[20px] bottom-[20px]'></div>
+      <div className='fixed right-[20px] bottom-[20px]'>
+        <ContactUs/>
+      </div>
       <Navbaar/>
       {/* <Navbar/> */}
       <FrontPage/>
@@ -21,6 +25,7 @@ const HomePage = () => {
       <Register/>
       <ESummit/>
       <PastPartners/>
+      <Events/>
       <Footer/>
     </div>
   )

@@ -22,7 +22,7 @@ const FrontPage = () => {
       data-aos-anchor-placement="bottom-bottom"
       data-aos-delay="300"
       data-aos-duration="1000"
-      className='absolute flex justify-center flex-col  items-center text-white z-10'>
+      className='absolute flex justify-center flex-col  items-center text-white'>
         <div className='flex flex-row justify-center items-baseline'>
         <div className='main_head'>E-SUMMIT '23</div>
 

@@ -1,0 +1,42 @@
+.Events{
+    background-color: #fff;
+}
+.main-head-events{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0px;
+}
+.events{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+.card-event{
+    width: 25%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.head-card{
+    text-align: center;
+    font-size: 20px;
+}
+.content-card{
+    font-size: 16px;
+}
+.btn-div{
+    font-size: 14px;
+    text-align: center;
+}
+.btn-card-event{
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn-card-event:hover{
+    background-color: white;
+    color: black;
+
+}
+.written-card{
+    padding: 20px ;
+}
